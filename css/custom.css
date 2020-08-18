@@ -1,0 +1,384 @@
+  
+  #header-div{
+	  height:10%;
+  }
+  @media only screen and (max-width: 2560px) {
+	  #profile-pic{
+		  padding:10px, 5px,10px,5px ;
+		  position:absolute;
+		  z-index: 100;
+		  display: block;  
+		  margin-top:2vw;
+		  margin-left:38vw;
+		  
+	  }
+	 
+  }
+  @media only screen and (max-width: 1024px) {
+	  #profile-pic{
+		  padding:10px, 5px,10px,5px ;
+		  position:absolute;
+		  z-index: 100;
+		  display: block;  
+		  margin-top:2vw;
+		  margin-left:32vw;
+		  
+	  }
+	  #profile-photo{
+		  height:12em;
+		  margin-left:4em;
+	  }
+  }
+  @media only screen and (max-width: 768px) {
+	  #profile-pic{
+		  padding:10px, 5px,10px,5px ;
+		  position:absolute;
+		  z-index: 100;
+		  display: block;  
+		  margin-top:3vw;
+		  margin-left:30vw;
+		  
+		  
+	  }
+}
+ @media only screen and (max-width: 425px) {
+	  #profile-pic{
+		  padding:10px, 5px,10px,5px ;
+		  position:absolute;
+		  z-index: 100;
+		  display: block;  
+		  margin-top:5vw;
+		  margin-left:12vw;
+		  
+	  }
+}
+@media only screen and (max-width: 375px) {
+	  #profile-pic{
+		  padding:10px, 5px,10px,5px ;
+		  position:absolute;
+		  z-index: 100;
+		  display: block;  
+		  margin-top:5vw;
+		  margin-left:8vw;
+		  
+	  }
+}
+
+@media only screen and (max-width: 320px) {
+  #profile-pic{
+	  padding:10px, 5px,10px,5px ;
+	  position:absolute;
+      z-index: 100;
+	  display: block;  
+	  margin-top:6vw;
+	  margin-left:5vw;
+	  
+  }
+  
+}
+
+@media only screen and (max-width: 320px) {
+  .carousel-inner img {
+    width: 100%;
+    height: 200%;
+  }
+  
+}
+
+  canvas { 
+  display: block; 
+  vertical-align: bottom; 
+}
+
+#particles-js{ 
+ 
+  width: 100%; 
+  height: 25em; 
+  background-color: #232741; 
+
+  background-repeat: no-repeat; 
+  background-size: 20%; 
+  background-position: 50% 50%; 
+}
+
+.count-particles{ 
+  background: #000022; 
+  position: absolute; 
+  top: 48px; 
+  left: 0; 
+  width: 80px; 
+  color: #13E8E9; 
+  font-size: .8em; 
+  text-align: left; 
+  text-indent: 4px; 
+  line-height: 14px; 
+  padding-bottom: 2px; 
+  font-family: Helvetica, Arial, sans-serif; 
+  font-weight: bold; 
+} 
+
+.js-count-particles{ 
+  font-size: 1.1em; 
+} 
+
+#stats, 
+.count-particles { 
+  -webkit-user-select: none; 
+  margin-top: 5px; 
+  margin-left: 5px; 
+} 
+
+#stats { 
+  border-radius: 3px 3px 0 0; 
+  overflow: hidden; 
+} 
+
+.count-particles{ 
+  border-radius: 0 0 3px 3px; 
+}
+
+.text-detail {
+	color:white;
+	font-size:18px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card{
+	width: 100%; 
+}
+.card-holder{
+	padding:8px;
+}
+
+#scrollTop {
+  display: none;
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  height:50px;
+  width:50px;
+  background-color:#232741;
+  border-radius:60px;
+  -webkit-border-radius:60px;
+  -moz-border-radius:60px;
+}
+
+#scrollTop span {
+  position:absolute;
+ top:50%;
+ left:50%;
+ margin-left: -8px;
+ margin-top: -12px;
+ border:8px solid transparent;
+ border-bottom-color:white;
+}
+#scrollTop: hover {
+	background-color:cyan;
+	opacity:1;
+	filter:"alpha(opacity=100)";
+	-ms-filter:"alpha(opacity=100)";
+}
+.title-content {
+	font-family: 'Andika';font-size: 32px;
+}
+.nav-link{
+	font-family: 'Anaheim';font-size: 20px;
+}
+.card-title{
+	font-family: 'Andika';font-size: 26px;
+}
+.card-text{
+	font-family: 'Anaheim';font-size: 20px;
+}
+.description{
+	font-family: 'Anaheim';font-size: 32px;
+	margin-top:16px;
+	margin-left:10px;
+	margin-right:5px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+ 
+ .skills {
+	 color:white;
+	 padding-top:10px;
+	 
+ }
+ 
+ .skill-title {
+	 font-family: 'Anaheim';font-size: 20px;
+	 color:black;
+ }
+ 
+ @media only screen and (max-width: 2560px) {
+	  .bar {
+			background : #353b48;
+			display:block;
+			height:10px;
+			width:95%;
+			border: 1px solid rgba(0,0,0,0,0.3);
+			border-radius:3px;
+			overflow:hidden;
+			box-shadow: 0 0 10px #2187e7b3;
+		}
+	 
+  }
+  @media only screen and (max-width: 1024px) {
+	  .bar {
+			background : #353b48;
+			display:block;
+			height:10px;
+			width:95%;
+			border: 1px solid rgba(0,0,0,0,0.3);
+			border-radius:3px;
+			overflow:hidden;
+			box-shadow: 0 0 10px #2187e7b3;
+		}
+  }
+  @media only screen and (max-width: 768px) {
+	  .bar {
+			background : #353b48;
+			display:block;
+			height:10px;
+			width:95%;
+			border: 1px solid rgba(0,0,0,0,0.3);
+			border-radius:3px;
+			overflow:hidden;
+			box-shadow: 0 0 10px #2187e7b3;
+		}
+}
+ @media only screen and (max-width: 425px) {
+	  .bar {
+			background : #353b48;
+			display:block;
+			height:10px;
+			width:95%;
+			border: 1px solid rgba(0,0,0,0,0.3);
+			border-radius:3px;
+			overflow:hidden;
+			box-shadow: 0 0 10px #2187e7b3;
+		}
+}
+
+
+.bar span {
+	height:10px;
+	float:left;
+	background: #2187e7;
+}
+
+.php{
+	width:80%;
+	
+}
+
+.html{
+	width:90%;
+	
+}
+
+.js{
+	width:80%;
+	
+}
+
+.css{
+	width:70%;
+	
+}
+
+.bootstrap{
+	width:70%;
+	
+}
+
+.laravel{
+	width:75%;
+	
+}
+
+.vue{
+	width:65%;
+	
+}
+
+@keyframes html {
+	0%{
+		width:0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+
+@keyframes php {
+	0%{
+		width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+
+@keyframes js {
+	0%{
+		width:0%;
+	}
+	100%{
+		width:75%;
+	}
+}
+
+@keyframes css {
+	0%{
+		width:0%;
+	}
+	100%{
+		width:70%;
+	}
+}
+
+@keyframes bootstrap {
+	0%{
+		width:0%;
+	}
+	100%{
+		width:70%;
+	}
+}
+
+@keyframes laravel {
+	0%{
+		width:0%;
+	}
+	100%{
+		width:75%;
+	}
+}
+
+@keyframes vue {
+	0%{
+		width:0%;
+	}
+	100%{
+		width:65%;
+	}
+}
+
+textarea{ 
+  width: 100%;  
+  height:200px; 
+  min-height:200px;  
+  max-height:200px;
+}
+
+
+  
